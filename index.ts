@@ -72,3 +72,14 @@ const book1:Book={
     publishedYear:2018
 }
 console.log(isRecentBook(book1))
+
+// problem 7:check string
+function logString(input:unknown):void{
+    if(typeof input === 'string'){
+        console.log(input)
+    }else{
+        console.error('Error:Input is not a String.');
+    }
+}
+
+logString("hello,Rakib");
