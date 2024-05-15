@@ -1,0 +1,16 @@
+To add a remote repository named origin, you can use the following command:
+
+bash
+Copy code
+git remote add origin <repository_URL>
+Replace <repository_URL> with the URL of your remote repository. Once you've added the remote repository correctly, you should be able to push your changes to it using:
+
+bash
+Copy code
+git push origin module
+If you're unsure about the URL of your remote repository, you can check it using:
+
+bash
+Copy code
+git remote -v
+This command will show you the configured remote repositories along with their URLs. Once you have the correct URL, you can add it as origin and proceed with the push.
